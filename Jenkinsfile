@@ -35,6 +35,7 @@ pipeline {
             steps {
                 sh '''
                 aws lambda update-function-code \
+                --region ap-south-1 \
                 --function-name $LAMBDA_NAME \
                 --s3-bucket $S3_BUCKET \
                 --s3-key $ARTIFACT
