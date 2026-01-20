@@ -1,2 +1,2 @@
 def handler(event, context):
-    return "Hello from Jenkins CI - Version 23"
+    return "Hello from Jenkins CI - Version 2.01"
